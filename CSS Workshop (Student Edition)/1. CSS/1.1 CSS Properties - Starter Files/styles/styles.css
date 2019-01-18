@@ -1,0 +1,26 @@
+/*
+Selector {
+	Property: value;
+}
+*/
+
+body {
+	background-image: url(../background-image.jpg);
+	background-size:cover;
+}
+
+h2 { 
+	color:red;
+	text-align: center;
+	border:5px solid purple; /*Create a border that's 5px wide, solid with the colour purple*/
+	cursor: pointer;
+}
+
+p {
+	color:green;
+}
+
+li {
+	list-style: none; /*Remove Bullet Points*/
+	display: inline-block; /* Make the list into a horizontal nav-bar*/
+}

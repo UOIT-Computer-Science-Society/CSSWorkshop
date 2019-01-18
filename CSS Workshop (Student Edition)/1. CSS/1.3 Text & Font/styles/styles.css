@@ -1,0 +1,31 @@
+/*
+Selector {
+	Property: value;
+}
+*/
+ 
+*{
+	text-align:right;
+}
+
+body {
+	background-image: url(../background-image.jpg);
+	background-size:cover;
+}
+
+h1 {
+	background:white;
+	text-align:center;
+}
+
+
+p {
+	text-decoration: underline;
+	
+	color:green;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}

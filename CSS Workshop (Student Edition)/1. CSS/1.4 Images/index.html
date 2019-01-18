@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first website!</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+	<button class="btn btn-primary">Default</button>
+	<header>
+		<nav>
+			<ul>
+				<li>Home</li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h1> Class Selector</h1>
+		<!-- Class Selector-->
+		<p class="webtext active">Lorem ipsum</p> <!-- Has 2 classes: webtext and active -->
+		<p class="webtext">Lorem ipsum</p>
+		<p class="webtext">Lorem ipsum</p>
+		<p class="webtext">Lorem ipsum</p>
+
+		<h1> ID Selector</h1>
+		<!-- ID Example-->
+		<div id = div1> <!-- Add ID called div1-->
+			<p class="webtext active">Lorem ipsum</p>			
+			<p class="webtext">Lorem ipsum</p>
+			<p class="webtext">Lorem ipsum</p>
+			<p class="webtext">Lorem ipsum</p>
+		</div>
+
+		<div id = div2> <!-- Add ID called div2-->
+			<p class="webtext active">Lorem ipsum</p>			
+			<p class="webtext">Lorem ipsum</p>
+			<p class="webtext">Lorem ipsum</p>
+			<p class="webtext">Lorem ipsum</p>
+		</div>
+
+		<!-- Element1 Element2 example-->
+		<h1>Element 1 Element 2 Example</h1>
+		<h2>Element1
+			<p>Element2</p>
+		</h2>
+
+		<!-- Element1 > Element2 example-->
+		<h1>Element1 > Element 2 Example</h1>
+
+		<h2>Element1
+			<div>
+				<p>Element2</p>	<!-- P tag's parent is the div; it won't apply style -->
+			</div>
+		</h2>
+
+		<h2>Element1
+			<p>Element2</p> <!-- P tag's parent is h2; so it'll apply-->
+		</h2>
+
+		<!-- Element1 + Element2 example-->
+		<h1>Element1 + Element 2 Example</h1>
+		<h2>Element1</h2>
+		<p>Element2</p> <!-- P tag is after h2; so it'll apply-->
+
+	</section>
+</body>
+</html>

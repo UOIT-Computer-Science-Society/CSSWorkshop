@@ -1,0 +1,35 @@
+h2 {
+	color:blue;
+}
+
+.boxmodel{
+	border: 5px solid red;
+	display: inline-block;
+
+	/*Padding gives more space inside the border*/
+	/*=== Syntax ===*/
+
+	/*Apply to all sides*/
+	/*padding: 20px; */
+
+	/*Apply to each side invidually (TOP, RIGHT, BOTTOM, LEFT)*/
+	/*padding: 5px 20px 5px 20px; */
+
+	/*Shortcut way*/
+	/*padding: 5px 20px;*/
+
+
+
+
+	/*Margin gives space OUTSIDE the border*/
+	/*=== Syntax=== */
+
+	/*Apply to all sides*/
+	/*margin: 20px; */
+
+	/*Apply to each side invidually (TOP, RIGHT, BOTTOM, LEFT)*/
+	/*margin: 0px 20px 0px 20px; */
+
+	/*Shortcut way*/
+	/*margin: 0px 20px ; */
+}

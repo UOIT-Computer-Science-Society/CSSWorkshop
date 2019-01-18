@@ -1,0 +1,85 @@
+/*
+Selector {
+	Property: value;
+}
+*/
+ 
+*{
+	text-align:right;
+}
+
+body {
+	background-image: url(../background-image.jpg);
+	background-size:cover;
+}
+
+h1 {
+	background:white;
+	text-align:center;
+}
+
+/*Select more than one element*/
+h2,p { 
+	color:black;
+	text-align: center;
+	border:5px solid purple;
+	cursor: pointer;
+}
+
+/*select all p's inside h2*/
+h2 p { 
+	color:black;
+	text-align: center;
+	border:5px solid purple;
+	cursor: pointer;
+}
+
+/*select all p's who's parent h2*/
+h2 > p { 
+	color:black;
+	text-align: center;
+	border:5px solid purple;
+	cursor: pointer;
+}
+
+/*select any p element that's AFTER the h2 element*/
+h2 + p { 
+	color:black;
+	text-align: center;
+	border:5px solid black;
+	cursor: pointer;
+}
+
+/*On Hover*/
+h2 + p:hover { 
+	color:green;
+	text-align: center;
+	border:5px solid green;
+	cursor: pointer;
+}
+
+p {
+	color:green;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+/*Class Selector*/
+.webtext {
+	border: 5px dashed green;
+}
+
+.active {
+	color:red;
+}
+
+/*ID Selector*/
+#div1{
+	background: rgba(0,0,255,0.2);
+}
+#div2{
+	background: rgba(255,0,0,0.2);
+}

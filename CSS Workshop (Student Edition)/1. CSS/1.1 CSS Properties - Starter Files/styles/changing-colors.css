@@ -1,0 +1,17 @@
+/*Word*/
+p {
+	color: blue;
+}
+
+/*RGB*/
+p {
+	color:rgb(0,0,255);
+}
+/*HEX*/
+p {
+	color:#0000ff;
+}
+/*RGBA*/
+p {
+	rgba:(0,0,255,1); /*Can set the opacity between 0-1; 0 being transparent*/
+}

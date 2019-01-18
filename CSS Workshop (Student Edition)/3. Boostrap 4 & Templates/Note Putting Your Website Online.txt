@@ -1,0 +1,5 @@
+If you are getting a 404 error when trying to put your website online to your Github pages, it means that Github cannot access your files. This means that there may be a few issues:
+
+1. If your account on github has name: john, than your repository with your page name should be: john.github.io
+
+2. You need to make sure you have an index.html  file spelled correctly inside of your project.
