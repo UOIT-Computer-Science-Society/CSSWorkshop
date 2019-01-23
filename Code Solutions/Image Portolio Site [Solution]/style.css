@@ -1,0 +1,26 @@
+.container {
+	display: flex; /* Everything inside container is a flexbox*/
+	flex-wrap: wrap; /*Wraps content*/
+	justify-content: center;*/ /* Centers content*/
+}
+
+h1 {
+	font-family:fantasy;
+	font-size: 3em;
+	border-bottom:2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;  
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+
+img:hover{
+	transform: scale(1.1);
+}
